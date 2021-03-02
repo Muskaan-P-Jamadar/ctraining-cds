@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+ struct employee{
+    char empid[10];
+    char empname[100];
+     char company[50];
+  //  struct employee *link;
+};
+typedef struct employee emp;
+ emp e1;
+int main()
+{
+ FILE *fp;
+ fp = fopen("employeedb","wb");
+ for(int i=0;i<10;i++){
+  printf("enter the empid\n");
+scanf("%s",&e1[i].empid);
+ 
+printf("enter the employee name\n");
+scanf("%s" ,&e1[i].empname);
+ 
+printf("enter the em[ployee company\n");
+scanf("%s",&e1[i].company);
+}
+fwrite(&e1,sizeof(e1),)1,fp);
+ 
+ 
+~
+~
